@@ -1,4 +1,4 @@
-# CreateFella
+# CreateaFella
 A vanilla JavaScript [NAFO](https://en.wikipedia.org/wiki/NAFO_(group)) "Fella" character creator/builder/generator, whatever.
 
 ### 📉 Project status
