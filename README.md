@@ -1,12 +1,13 @@
 # CreateAFella
 A vanilla JavaScript [NAFO](https://en.wikipedia.org/wiki/NAFO_(group)) "Fella" character creator. Hosted on Github.
 
+### [Open the app](https://hakorr.github.io/CreateAFella)
+
+## 🎨 Preview
 
 | Questionnaire | Editor | Settings |
 |---------------|--------|----------|
 |<img width="310" src="content/example_questionnaire_ui.png"/>|<img width="250" src="content/example_ui.png"/>|<img width="250" src="content/example_settings_ui.png"/>|
-
-### [Open the app](https://hakorr.github.io/CreateAFella)
 
 ## 📉 Project status
 
