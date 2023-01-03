@@ -1,0 +1,18 @@
+.failure-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    color: white;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.failure-mode-center {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
+    background-color: #1b0000;
+}

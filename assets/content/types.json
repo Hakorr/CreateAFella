@@ -1,0 +1,246 @@
+[
+    {
+        "category": "Hats",
+        "path": "hats/",
+		"icon": "category/hats.png",
+        "sub": [
+            {
+                "name": null,
+                "items": [
+                    {
+                        "filename": "xmas.png",
+                        "z_index": 1,
+                        "width": 400,
+                        "height": 200,
+                        "texture": false,
+                        "rotation": null,
+                        "correction": {
+                            "x": -50,
+                            "y": 240
+                        }
+                    },
+                    {
+                        "filename": "fbi_cap.png",
+                        "z_index": 1,
+                        "width": 300,
+                        "height": 150,
+                        "rotation": 0,
+                        "texture": false,
+                        "correction": {
+                            "x": 40,
+                            "y": 270
+                        }
+                    },
+                    {
+                        "filename": "crown.png",
+                        "z_index": 2,
+                        "width": 300,
+                        "height": 200,
+                        "rotation": 7,
+                        "texture": false,
+                        "correction": {
+                            "x": 15,
+                            "y": 260
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "category": "Face",
+        "path": "face/",
+		"icon": "category/face.png",
+        "sub": [
+            {
+                "name": "Eyes",
+                "items": [
+                    {
+                        "filename": "sunglasses.png",
+                        "z_index": 3,
+                        "width": 250,
+                        "height": 90,
+                        "rotation": -3,
+                        "texture": false,
+                        "correction": {
+                            "x": 65,
+                            "y": 180
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Mouth",
+                "items": [
+                    {
+                        "filename": "cigarette.png",
+                        "z_index": 4,
+                        "width": 100,
+                        "height": 30,
+                        "rotation": 15,
+                        "texture": false,
+                        "correction": {
+                            "x": 125,
+                            "y": 108
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Facial hair",
+                "items": [
+                    {
+                        "filename": "moustache_1.svg",
+                        "z_index": 5,
+                        "width": 200,
+                        "height": 100,
+                        "rotation": 0,
+                        "texture": false,
+                        "coloring": true,
+                        "correction": {
+                            "x": 90,
+                            "y": 110
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Other",
+                "items": [
+                    {
+                        "filename": "blushes.svg",
+                        "z_index": 2,
+                        "width": 250,
+                        "height": 30,
+                        "rotation": 0,
+                        "texture": false,
+                        "correction": {
+                            "x": 30,
+                            "y": 140
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "category": "Tops",
+        "path": "tops/",
+		"icon": "category/tops.png",
+        "sub": [
+            {
+                "name": null,
+                "items": [
+                    {
+                        "filename": "digital_camo.svg",
+                        "texture": true,
+                        "coloring": true
+                    },
+                    {
+                        "filename": "land_camo.svg",
+                        "texture": true,
+                        "coloring": true
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "category": "Bottoms",
+        "path": "bottoms/",
+		"icon": "category/bottoms.png",
+        "sub": [
+            {
+                "name": null,
+                "items": [
+                    {
+                        "filename": "digital_camo.svg",
+                        "texture": true,
+                        "coloring": true
+                    },
+                    {
+                        "filename": "land_camo.svg",
+                        "texture": true,
+                        "coloring": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Shoes",
+        "path": "shoes/",
+		"icon": "category/shoes.png",
+        "sub": [
+            {
+                "name": "This is an unfinished feature.",
+                "items": [
+                    {
+                        "filename": "shoe.svg",
+                        "texture": true,
+                        "coloring": true
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "category": "Left Hand",
+        "path": "left_hand/",
+		"icon": "category/left_hand.png",
+        "sub": [
+            {
+                "name": null,
+                "items": [
+                    {
+                        "filename": "hand.png",
+                        "z_index": 0,
+                        "width": 187.5,
+                        "height": 187,
+                        "rotation": null,
+                        "texture": false,
+                        "correction": {
+                            "x": -175,
+                            "y": -85
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "category": "Right Hand",
+        "path": "right_hand/",
+		"icon": "category/right_hand.png",
+        "sub": [
+            {
+                "name": null,
+                "items": [
+                    {
+                        "filename": "gun.png",
+                        "z_index": 0,
+                        "width": 187.5,
+                        "height": 170,
+                        "rotation": null,
+                        "texture": false,
+                        "correction": {
+                            "x": 170,
+                            "y": -100
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "category": "Outfits",
+        "path": "outfits/",
+		"icon": "category/outfits.png",
+        "sub": [
+            {
+                "name": "This is an unfinished feature.",
+                "items": []
+            }
+        ]
+    }
+]

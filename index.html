@@ -1,0 +1,75 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/kanit-font.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/patterns.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/failure.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/webkit.css"/>
+	<title>Create a Fella</title>
+</head>
+<body class="paper-pattern-background">
+	<div id="app">
+		<!-- Question Container-->
+		<div id="question-container" class="hidden">
+			<div class="top-panel">
+				<div class="title-text">Questionnaire</div>
+				<div class="title-info-text">Are you a Fella?</div>
+			</div>
+			<div id="questions">
+
+			</div>
+			<div class="control-panel settings-control-panel">
+				<div id="questionnaire-done-button" class="round-button"></div>
+			</div>
+		</div>
+		<!-- Settings Container-->
+		<div id="settings-container" class="hidden pattern-background">
+			<div class="top-panel"><div class="title-text">Fella Settings</div></div>
+			<div class="setting">
+				<label for="image-quality-slider">Image Resolution (1000x1000)</label>
+				<input type="range" min="100" max="2000" value="1000" step="100" class="slider" id="image-quality-slider">
+			</div>
+			<div class="horizontal-setting">
+				<div style="font-size: 2vh; margin-right: 1vh;">Developer Mode</div>
+				<input type="checkbox" id="dev-mode-checkbox">
+			</div>
+			<div class="control-panel settings-control-panel">
+				<div id="settings-exit-button" class="round-button settings-exit-button"></div>
+			</div>
+		</div>
+		<!-- Fella Editor Container-->
+		<div id="editor-container" class="hidden">
+			<div id="fella-container">
+				<div class="top-panel">
+					<div class="title-text">Create a Fella</div>
+					<div id="title-resolution-text" class="title-info-text">(1000x1000)</div>
+				</div>
+				<!-- Canvas For The Fella -->
+				<canvas id="main-canvas"></canvas>
+				<div class="control-panel">
+					<div id="settings-button" class="round-button"></div>
+					<div id="clear-button" class="round-button"></div>
+					<div id="undo-button" class="round-button"></div>
+					<div id="randomize-button" class="round-button"></div>
+					<div id="done-button" class="round-button"></div>
+				</div>
+			</div>
+			<div id="drag-panel">
+				<div id="drag-element"></div>
+			</div>
+			<div id="item-carousel"></div>
+			<div id="item-container"></div>
+		</div>
+	</div>
+	<div id="black-hole"></div>
+	<script src="assets/js/index.js"></script>
+	<script src="assets/js/render/helpers.js"></script>
+	<script src="assets/js/render/item_customization.js"></script>
+	<script src="assets/js/render/rendering.js"></script>
+	<script src="assets/js/interface/fastclick.js"></script>
+	<script src="assets/js/interface/listeners.js"></script>
+	<script src="assets/js/interface/ui.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/misc/questionnaire.js"></script>
+</body>
+</html>
