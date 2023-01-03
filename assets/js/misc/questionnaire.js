@@ -140,6 +140,7 @@
         if (totalScore == questions.length) {
             localStorage.setItem("isFella", true);
             questionContainer.className = 'hidden';
+            initialize();
         } else {
             localStorage.setItem("isFella", false);
             enableFailureMode();
