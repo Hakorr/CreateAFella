@@ -1,5 +1,5 @@
 # CreateAFella
-A vanilla JavaScript [NAFO](https://en.wikipedia.org/wiki/NAFO_(group)) "Fella" character creator.
+A vanilla JavaScript [NAFO](https://en.wikipedia.org/wiki/NAFO_(group)) "Fella" character creator. Hosted on Github.
 
 ### [Open the app](https://hakorr.github.io/CreateAFella)
 
