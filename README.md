@@ -10,7 +10,7 @@ Anyway, this was more of a personal project to see how character creators functi
 ### 🗄️ Running locally
 
 1. Use a web server of your choosing (e.g. [XAMPP](https://www.apachefriends.org/download.html))
-2. Download the files and make sure you have them on the correct folder so the server can serve them
+2. Download the repository files and make sure you have them on the correct folder so the server can serve them
 3. Start the web server to localhost:80
 4. Open [localhost:80](http://localhost:80) on your browser
 
